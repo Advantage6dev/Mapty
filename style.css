@@ -285,7 +285,6 @@ a:visited {
 }
 
 /* SMALL SCREEN NOTICE */
-/* Mobile message: hidden by default */
 .mobile-message {
   display: none;
 }
@@ -293,6 +292,9 @@ a:visited {
 /* Small screens */
 @media screen and (max-width: 767px) {
   .desktop-only {
+    display: none !important;
+  }
+  #map {
     display: none !important;
   }
 
